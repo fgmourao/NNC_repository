@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<textarea id="meuTexto" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+</textarea>
+
+<div id="dsd"></div><br>
+<button type="button" onclick="myfunc()" >CLIQUE</button><br><br><br>
+TEXTO CONVERTIDO<br>
+<textarea id="meuTexto2" rows="4" cols="50"></textarea>
+<script>
+function myfunc()
+{
+var strTemp=document.getElementById("meuTexto").value;
+document.getElementById("dsd").innerHTML = "Numero total de letras: " + strTemp.length + " => ";
+
+var strTemp2="";
+for (var i=0; i<strTemp.length; i++) 
+	{
+	if (strTemp[i]=="\n") strTemp2+="\\n\\";
+	if (strTemp[i]=="\\") strTemp2+="\\";
+	if (strTemp[i]=="\"") strTemp2+="\\";
+	strTemp2+=strTemp[i];
+	}
+document.getElementById("meuTexto2").value=strTemp2;
+}
+</script>
+</body>
+</html>
