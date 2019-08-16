@@ -1,7 +1,4 @@
-# NNC_repository
-Custom equipments for open source science. Developed  by the Núcleo de Neurociências (Neuroscience Research Center)at the Federal University of Minas Gerais (Brazil).
-
-A Custom Microcontrolled and Wireless-Operated Chamber for Auditory Fear Conditioning
+# A Custom Microcontrolled and Wireless-Operated Chamber for Auditory Fear Conditioning
 
 Authors: Paulo Aparecido Amaral Júnior1,2#, Flávio Afonso Gonçalves Mourão1#, Mariana Chamon Ladeira Amâncio1, Hyorrana Pereira Pinto1, Vinícius Rezende Carvalho1,2, Leonardo de Oliveira Guarnieri1,2, Hermes Aguiar Magalhães2, Márcio Flávio Dutra Moraes1*. 
 
