@@ -10,14 +10,24 @@ Animal behavioral paradigms, such as classical conditioning and operant conditio
 
 
 Correspondence:<br />
+
+Flávio Afonso Gonçalves Mourão, PhD<br />
+Núcleo de Neurociências, Departamento de Fisiologia e Biofísica<br />
+Instituto de Ciências Biológicas (ICB)<br /> 
+Universidade Federal de Minas Gerais (UFMG)<br />
+Av. Antônio Carlos, 6627 - CEP 31270-901- Campus Pampulha<br />
+Belo Horizonte - MG - Brazil<br />
+Fax: +55 31 3409-2924 Phone: +55 31 3409-2927<br />
+
 Márcio Flávio Dutra Moraes, PhD<br />
 Núcleo de Neurociências, Departamento de Fisiologia e Biofísica<br />
 Instituto de Ciências Biológicas (ICB)<br /> 
 Universidade Federal de Minas Gerais (UFMG)<br />
 Av. Antônio Carlos, 6627 - CEP 31270-901- Campus Pampulha<br />
 Belo Horizonte - MG - Brazil<br />
-Fax: +55 31 3409-2924 Phone: +55 31 3409-2939<br />
+Fax: +55 31 3409-2924 Phone: +55 31 3409-2930<br />
 Email: mfdm@icb.ufmg.br<br />
+
 
 
 ![https://github.com/fgmourao/NNC_repository/blob/master/Conditioning%20Chamber/Images/schem.png](https://github.com/fgmourao/NNC_repository/blob/master/Conditioning%20Chamber/Images/schem.png)
