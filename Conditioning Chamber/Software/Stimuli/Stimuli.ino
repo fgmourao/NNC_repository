@@ -51,16 +51,16 @@ bool bBarStatus = false; // variable used to track the status of SHOCK (if shock
   carrier_freq must be less than (clock carrier_freq)/maxSampleNumCarrier
   REMEMBER! : maximum feasible frequency is given by the conversor limit: 125kHz
   */
-float carrier_freq = 1000;   // defauilt value for carrier frequency (in Hertz). This variable can be programmed by ESP8266 via webpage -> SPI.
+float carrier_freq   = 1000;   // defauilt value for carrier frequency (in Hertz). This variable can be programmed by ESP8266 via webpage -> SPI.
 float modulator_freq = 53.71; // default value for modulator frequency (in Hertz). This variable can be programmed by ESP8266 via webpage -> SPI.
-float volume_sound = 100;     // default value for volume sound (in percent). This variable can be programmed by ESP8266 via webpage -> SPI.
+float volume_sound   = 100;     // default value for volume sound (in percent). This variable can be programmed by ESP8266 via webpage -> SPI.
 int iC = 0;   // Carrier wave counter.
 int iM = 0;   // Modulating wave counter
 uint32_t DACbuffer[maxSamplesNumCarrier * maxSamplesNumModulating]; // Template of the signal with modulator already calculated.
 
 // SHOCK variables.
 float pulse_shockHigh = 10; // default value for the time the bar is tied to GND (in ms). This variable can be programmed by ESP8266 via webpage -> SPI.
-float pulse_shockLow = 10;  // default value for the time that should be waited until reach next bar (in ms). This variable can be programmed by ESP8266 via webpage -> SPI.
+float pulse_shockLow  = 10;  // default value for the time that should be waited until reach next bar (in ms). This variable can be programmed by ESP8266 via webpage -> SPI.
 float fDeltaT;
 
 int ipulse_shockHigh; // in ms.
@@ -69,15 +69,15 @@ int iDeltaT;
 
 int iBarPin = 22;
 static int iInitialBarPin = 23; // Initial pin for the first bar.
-static int MaxNumBarPin = 8;    // Number of bars.
-static int iBarPinStep = 2;     // Step for bar pins (so we can choose only odd or even pins, for example).
+static int MaxNumBarPin   = 8;    // Number of bars.
+static int iBarPinStep    = 2;     // Step for bar pins (so we can choose only odd or even pins, for example).
 int iCountShockIntervals;
 
 bool bSPIprocessdataOUT = false;
-bool bSPIprocessdataIn = false;
-int iSPIdataCountIN = 0;
+bool bSPIprocessdataIn  = false;
+int iSPIdataCountIN  = 0;
 int iSPIdataCountOUT = 0;
-int iSPIdataMaxOUT = 0;
+int iSPIdataMaxOUT   = 0;
 byte byteBufferDataIN[500];
 byte byteBufferDataOUT[500];
 uint32_t uData; // A variable where we copy the content of the SPI Receive Data Register when we have an SPI interrupt.
