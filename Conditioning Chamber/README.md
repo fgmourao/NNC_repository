@@ -31,7 +31,3 @@ Av. Antônio Carlos, 6627 - CEP 31270-901- Campus Pampulha<br />
 Belo Horizonte - MG - Brazil<br />
 Fax: +55 31 3409-2924 Phone: +55 31 3409-2930<br />
 Email: mfdm@icb.ufmg.br<br />
-
-
-
-![https://github.com/fgmourao/NNC_repository/blob/master/Conditioning%20Chamber/Images/schem.png](https://github.com/fgmourao/NNC_repository/blob/master/Conditioning%20Chamber/Images/schem.png)
